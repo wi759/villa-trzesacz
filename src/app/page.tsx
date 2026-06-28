@@ -784,27 +784,15 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="form-row">
-              <div className="form-field">
-                <label className="form-label">{t.offerForm.email} *</label>
-                <input
-                  type="email"
-                  required
-                  value={offerForm.email}
-                  onChange={(e) => setOfferForm({ ...offerForm, email: e.target.value })}
-                  className="form-input"
-                />
-              </div>
-              <div className="form-field">
-                <label className="form-label">{t.offerForm.phone} *</label>
-                <input
-                  type="tel"
-                  required
-                  value={offerForm.phone}
-                  onChange={(e) => setOfferForm({ ...offerForm, phone: e.target.value })}
-                  className="form-input"
-                />
-              </div>
+            <div className="form-field">
+              <label className="form-label">{t.offerForm.email} *</label>
+              <input
+                type="email"
+                required
+                value={offerForm.email}
+                onChange={(e) => setOfferForm({ ...offerForm, email: e.target.value })}
+                className="form-input"
+              />
             </div>
 
             <div className="form-field">
@@ -881,18 +869,10 @@ export default function Home() {
               </div>
 
               <div className="contact-info-item">
-                <div className="info-icon-box"><Phone size={18} /></div>
-                <div className="info-text-box">
-                  <span className="info-label">{t.contactForm.phoneLabel}</span>
-                  <a href="tel:+48600000000" className="info-value link">+48 600 000 000 (PL / DE)</a>
-                </div>
-              </div>
-
-              <div className="contact-info-item">
                 <div className="info-icon-box"><Mail size={18} /></div>
                 <div className="info-text-box">
                   <span className="info-label">{t.contactForm.emailLabel}</span>
-                  <a href="mailto:info@baltic-prestige-trzesacz.pl" className="info-value link">info@baltic-prestige-trzesacz.pl</a>
+                  <a href="mailto:d.marcinczak@web.de" className="info-value link">d.marcinczak@web.de</a>
                 </div>
               </div>
 
@@ -916,26 +896,15 @@ export default function Home() {
                 />
               </div>
 
-              <div className="form-row">
-                <div className="form-field">
-                  <label className="form-label">{t.contactForm.email} *</label>
-                  <input
-                    type="email"
-                    required
-                    value={contactForm.email}
-                    onChange={(e) => setContactForm({ ...contactForm, email: e.target.value })}
-                    className="form-input"
-                  />
-                </div>
-                <div className="form-field">
-                  <label className="form-label">{t.contactForm.phone}</label>
-                  <input
-                    type="tel"
-                    value={contactForm.phone}
-                    onChange={(e) => setContactForm({ ...contactForm, phone: e.target.value })}
-                    className="form-input"
-                  />
-                </div>
+              <div className="form-field">
+                <label className="form-label">{t.contactForm.email} *</label>
+                <input
+                  type="email"
+                  required
+                  value={contactForm.email}
+                  onChange={(e) => setContactForm({ ...contactForm, email: e.target.value })}
+                  className="form-input"
+                />
               </div>
 
               <div className="form-field">

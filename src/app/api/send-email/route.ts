@@ -61,7 +61,7 @@ ${data.message}
     console.log(emailText);
 
     // If SMTP environment variables are not configured, simulate success
-    if (!SMTP_HOST || !SMTP_PORT || !SMTP_USER || !SMTP_PASSWORD || !SMTP_TO) {
+    if (!SMTP_HOST || !SMTP_PORT || !SMTP_USER || !SMTP_PASSWORD) {
       console.warn(
         "SMTP environment variables not configured. Email logged to console instead of sending."
       );
@@ -71,6 +71,8 @@ ${data.message}
         simulated: true,
       });
     }
+
+    const targetEmail = SMTP_TO || "d.marcinczak@web.de";
 
     // Set up nodemailer transporter
     const transporter = nodemailer.createTransport({
@@ -86,7 +88,7 @@ ${data.message}
     // Send email
     await transporter.sendMail({
       from: SMTP_FROM || SMTP_USER,
-      to: SMTP_TO,
+      to: targetEmail,
       subject: emailSubject,
       text: emailText,
     });

@@ -269,7 +269,7 @@ export const translations: Record<Language, Translation> = {
       rights: 'Alle Rechte vorbehalten.',
       imprint: 'Impressum',
       privacy: 'Datenschutz',
-      imprintText: 'Angaben gemäß § 5 TMG:\n\nProjektname: Baltic Prestige Trzęsacz\nEigentümer/Anbieter: Vertretung der Eigentümergemeinschaft ul. Letniskowa 4a\nE-Mail: info@baltic-prestige-trzesacz.pl\nVerantwortlich für den Inhalt: Eigentümergemeinschaft Letniskowa 4a\n\nHinweis: Dies ist eine exklusive Verkaufspräsentation. Alle Angaben sind freibleibend.',
+      imprintText: 'Angaben gemäß § 5 TMG:\n\nProjektname: Baltic Prestige Trzęsacz\nEigentümer/Anbieter: Vertretung der Eigentümergemeinschaft ul. Letniskowa 4a\nE-Mail: d.marcinczak@web.de\nVerantwortlich für den Inhalt: Eigentümergemeinschaft Letniskowa 4a\n\nHinweis: Dies ist eine exklusive Verkaufspräsentation. Alle Angaben sind freibleibend.',
       privacyText: 'Datenschutzerklärung (DSGVO):\n\nWir nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Die über unsere Formulare erhobenen Daten (Name, E-Mail, Telefon, Gebot) werden ausschließlich zum Zweck der Kontaktaufnahme und Verhandlungsführung bezüglich der angebotenen Immobilie verwendet. Eine Weitergabe an Dritte erfolgt nicht. Sie haben jederzeit das Recht auf Auskunft, Berichtigung und Löschung Ihrer gespeicherten Daten.',
       modalClose: 'Schließen'
     }
@@ -405,7 +405,7 @@ export const translations: Record<Language, Translation> = {
       rights: 'Wszelkie prawa zastrzeżone.',
       imprint: 'Nota prawna / Impressum',
       privacy: 'Polityka prywatności',
-      imprintText: 'Dane wg § 5 TMG:\n\nNazwa projektu: Baltic Prestige Trzęsacz\nReprezentant Właścicieli: Wspólnota Właścicieli ul. Letniskowa 4a\nE-Mail: info@baltic-prestige-trzesacz.pl\nOdpowiedzialny za treść: Wspólnota Właścicieli ul. Letniskowa 4a\n\nUwaga: Niniejsza strona ma charakter wyłącznie informacyjny i prezentacyjny. Oferta nie stanowi oferty handlowej w rozumieniu Kodeksu Cywilnego.',
+      imprintText: 'Dane wg § 5 TMG:\n\nNazwa projektu: Baltic Prestige Trzęsacz\nReprezentant Właścicieli: Wspólnota Właścicieli ul. Letniskowa 4a\nE-Mail: d.marcinczak@web.de\nOdpowiedzialny za treść: Wspólnota Właścicieli ul. Letniskowa 4a\n\nUwaga: Niniejsza strona ma charakter wyłącznie informacyjny i prezentacyjny. Oferta nie stanowi oferty handlowej w rozumieniu Kodeksu Cywilnego.',
       privacyText: 'Polityka prywatności (RODO):\n\nBardzo poważnie traktujemy ochronę danych osobowych. Dane zebrane za pośrednictwem formularzy (imię, nazwisko, e-mail, telefon, kwota oferty) są wykorzystywane wyłącznie w celu kontaktu oraz negocjacji dotyczących sprzedaży nieruchomości. Dane nie są przekazywane podmiotom trzecim. Masz prawo do wglądu, poprawiania oraz usunięcia swoich danych w dowolnym momencie.',
       modalClose: 'Zamknij'
     }
